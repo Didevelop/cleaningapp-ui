@@ -1,0 +1,100 @@
+/* Theme Cleaner App */
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #fff;
+}
+a{
+	color: #BA68C8;
+}
+a:focus,
+a:hover{
+   color: #8E24AA;
+}
+h1,h2,h3,h4{
+	color: #8E24AA;
+	font-weight: bold;
+	margin: 0px;
+}
+.nav>li.nav-item>a{
+	color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background: #fff;
+	color: #8E24AA;
+}
+.navbar-app{
+  box-shadow: 0px 2px 5px #212121;
+  background: #8E24AA;
+}
+.navbar-toggle{
+	float: left;
+	margin-left: 15px;
+	margin-top: 9px;
+}
+.navbar-toggle .icon-bar{
+	background: #fff;
+	display: block;
+    border-radius: 5px;
+    width: 15px;
+	height: 2px;
+}
+.navbar-toggle:hover .icon-bar{
+	background: #fff;
+}
+.navbar-toggle .icon-bar+.icon-bar{
+	margin-top:3px;
+}
+.navbar-brand{
+	float: none;
+	width: auto;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+}
+.navbar-brand:focus, .navbar-brand:hover{
+	color: #fff;
+}
+.wrap-app{
+	display: block;
+	margin-top: 55px;
+}
+.hold-login{
+  display: block;
+  margin: 0px auto;
+  width: 400px;
+  padding: 20px 0px 0px 0px;
+}
+.form-control{
+	height: 40px;
+	top: 1px;
+}
+.form-control:focus{
+	border-color: #8E24AA;
+}
+.input-group-addon{
+	background: #fff;
+	color:#8E24AA;
+}
+.btn-appclean-default {
+    color: #fff;
+    background-color: #8E24AA;
+/*    border-color: #BA68C8;*/
+    box-shadow: 0px 2px 5px #212121;
+}
+.btn-appclean-default:hover{
+	background: #BA68C8;
+	color: #fff;
+}
+@media (max-width: 768px){
+	.hold-login{
+	  width: 300px;
+	}
+	.fc-calendar .fc-row > div.fc-content:after {
+		width: 20px;
+	    line-height: 20px;
+	    font-size: 60px;
+	}
+}
+
