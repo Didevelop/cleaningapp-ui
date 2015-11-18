@@ -80,12 +80,34 @@ h1,h2,h3,h4{
 .btn-appclean-default {
     color: #fff;
     background-color: #8E24AA;
-/*    border-color: #BA68C8;*/
     box-shadow: 0px 2px 5px #212121;
 }
 .btn-appclean-default:hover{
 	background: #BA68C8;
 	color: #fff;
+}
+.btn-default{
+	box-shadow: 0px 2px 5px #212121;
+} 
+.mtop-10{
+	margin-top: 10px !important;
+}
+.mtop-20{
+	margin-top: 20px !important;
+}
+.mtop-30{
+	margin-top: 30px !important;
+}
+.mtop-40{
+	margin-top: 40px !important;
+}
+.center-ver{
+	margin-top: 20%;
+}
+.wrap-action a{
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
 }
 @media (max-width: 768px){
 	.hold-login{
@@ -95,6 +117,14 @@ h1,h2,h3,h4{
 		width: 20px;
 	    line-height: 20px;
 	    font-size: 60px;
+	}
+	.wrap-action a{
+	   min-width: 320px;
+	   max-width: 350px;
+	   width: 95%;
+	}
+	.center-ver{
+		margin-top: 40%;
 	}
 }
 
