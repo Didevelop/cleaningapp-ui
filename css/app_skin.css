@@ -59,6 +59,7 @@ h1,h2,h3,h4{
 .wrap-app{
 	display: block;
 	margin-top: 55px;
+	margin-bottom: 10px;
 }
 .hold-login{
   display: block;
@@ -77,7 +78,7 @@ h1,h2,h3,h4{
 	background: #fff;
 	color:#8E24AA;
 }
-.btn-appclean-default {
+.btn-appclean-default{
     color: #fff;
     background-color: #8E24AA;
     box-shadow: 0px 2px 5px #212121;
@@ -109,9 +110,40 @@ h1,h2,h3,h4{
 	margin-left: auto;
 	margin-right: auto;
 }
+.panel-group{
+	color: #BA68C8;
+}
+.top-buffer{ 
+	margin-top:20px; 
+}
+.top-buffer-min{ 
+	margin-top:10px; 
+}
+.panel{
+	border: 0px;
+}
+.panel-default>.panel-heading{
+	color: #BA68C8;
+	background-color: #fff;
+    border: transparent;
+}
+h3.panel-title{
+	cursor: pointer;
+}
+.user-caption{
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.table.table-user-information>tbody>tr>td, .table.table-user-information>tbody>tr>th, .table.table-user-information>tfoot>tr>td, .table.table-user-information>tfoot>tr>th, .table.table-user-information>thead>tr>td, .table.table-user-information>thead>tr>th{
+	border-top: 0px;
+} 
 @media (max-width: 768px){
 	.hold-login{
-	  width: 300px;
+	   min-width: 270px;
+	   width: 100%;
+	   padding: 10px 0px 0px 0px;
 	}
 	.fc-calendar .fc-row > div.fc-content:after {
 		width: 20px;
@@ -119,12 +151,22 @@ h1,h2,h3,h4{
 	    font-size: 60px;
 	}
 	.wrap-action a{
-	   min-width: 320px;
+	   min-width: 270px;
 	   max-width: 350px;
-	   width: 95%;
+	   width: 100%;
 	}
 	.center-ver{
 		margin-top: 40%;
+	}
+	.user-caption{
+		padding: 0px;
+	}
+	.table.table-user-information>tbody>tr>td{
+		padding: 5px;
+	}
+	.table.table-user-information>tbody>tr>td:nth-child(2){
+		word-break: break-all;
+		font-size: 14px;
 	}
 }
 

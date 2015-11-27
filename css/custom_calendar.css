@@ -115,8 +115,8 @@
 	color: #777;
 	padding: 20px 30px;
 	background: #fff;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
+/*	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;*/
 	box-shadow: 0 1px rgba(255,255,255,0.9);
 	margin-bottom: 30px;
 }
